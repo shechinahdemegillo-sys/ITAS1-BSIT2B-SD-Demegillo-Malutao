@@ -60,7 +60,7 @@ One computer runs the server. Client computers connect using the server computer
 | Proposed solution | A LAN group chat with drill alerts that members must acknowledge, and a shared list of simulated resource requests |
 | Proposed features | Drill alerts with acknowledgments; simulated resource requests |
 | Approved by | [Instructor name] |
-| Date and how approved | [e.g. in class on ___ / by message on ___] |
+| Date and how approved |  |
 
 ---
 
@@ -244,22 +244,24 @@ java Client
 
 ## 11. Testing Checklist
 
-Fill in the **Actual result** and **Status** columns after running each test for real.
+Record the actual result of each test after running it. Do not mark a test as passed until it has been demonstrated.
 
 | # | Test | Steps | Expected result | Actual result | Status |
-|---|---|---|---|---|---|
-| 1 | Three clients connect | Start the server and connect 3 clients (at least 2 computers) | All three appear in the online list | | |
-| 2 | Group message | One client sends a message | Every client shows it once, with nickname and time | | |
-| 3 | Duplicate nickname | Connect a second client with an existing nickname | Rejected with an error message | | |
-| 4 | Blank message | Press Send with an empty box | Nothing is sent | | |
-| 5 | `/name` | Type `/name Mia` | Nickname changes and all clients see the update | | |
-| 6 | `/help` | Type `/help` | Command list appears | | |
-| 7 | `/exit` | Type `/exit` | Client disconnects and the others see a leave notice | | |
-| 8 | Client disconnects | Close one client window | Server and the other clients keep working | | |
-| 9 | Server unavailable | Connect while the server is stopped | Helpful error message and the window does not freeze | | |
-| 10 | Invalid details | Leave the IP blank, or type `abc` as the port | Validation message appears | | |
-| 11 | Drill alert and acknowledgment | Broadcast an alert, then acknowledge it from the other clients | Banner appears on the others; count updates on all clients; a second acknowledgment from the same person is refused | | |
-| 12 | Resource request | Request a first-aid kit with details | Request appears in the list on all clients | | |
+|:---:|---|---|---|:---:|:---:|
+| 1 | Three concurrent clients | Connect three clients across two computers. | All clients appear in the online list. | [Record result] | [Pass/Fail] |
+| 2 | Message broadcast | Send a message from one client. | All connected clients receive it with sender and time. | [Record result] | [Pass/Fail] |
+| 3 | Online list updates | Join and disconnect a client. | The list updates on all remaining clients. | [Record result] | [Pass/Fail] |
+| 4 | Nickname change | Use `/name NewName`. | The new nickname appears for all clients. | [Record result] | [Pass/Fail] |
+| 5 | Duplicate nickname | Attempt to use a nickname already online. | The server rejects the duplicate. | [Record result] | [Pass/Fail] |
+| 6 | Blank message | Attempt to send an empty message. | The blank message is rejected. | [Record result] | [Pass/Fail] |
+| 7 | Help command | Use `/help`. | The list of commands is displayed. | [Record result] | [Pass/Fail] |
+| 8 | Exit command | Use `/exit`. | The client disconnects and the others see a leave notice. | [Record result] | [Pass/Fail] |
+| 9 | Client disconnect | Close one client window. | The server and the remaining clients keep working. | [Record result] | [Pass/Fail] |
+| 10 | Server unavailable | Connect while the server is stopped. | A helpful error appears and the window does not freeze. | [Record result] | [Pass/Fail] |
+| 11 | Invalid connection details | Leave the IP blank, or type `abc` as the port. | A validation message appears. | [Record result] | [Pass/Fail] |
+| 12 | Drill alert broadcast | Broadcast a drill alert from one client. | All other clients show the alert banner and a list entry. | [Record result] | [Pass/Fail] |
+| 13 | Alert acknowledgment | Acknowledge the alert from each other client. | The count updates on all clients, and a repeat acknowledgment is refused. | [Record result] | [Pass/Fail] |
+| 14 | Resource request | Request a first-aid kit with details. | The request appears in the list on all clients. | [Record result] | [Pass/Fail] |
 
 ---
 
