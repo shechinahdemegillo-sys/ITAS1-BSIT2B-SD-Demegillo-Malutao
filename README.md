@@ -288,10 +288,10 @@ The commit history of this repository also shows each member's work.
 
 ## 14. Credits and AI Disclosure
 
-- Language and interface: Java and Java Swing.
-- Networking: Java `java.net` socket classes (`ServerSocket` and `Socket`) with `java.io` streams.
-- External libraries/assets: None. The project uses only the standard Java library. Update this section if any are added.
-- AI assistance: We used an AI assistant (Claude, by Anthropic) to help [...]. The original [...]. [...] Review and edit this statement so it accurately reflects the team's work.
+* Language and interface: Java and Java Swing.
+* Networking: Java `java.net` socket classes.
+* External libraries/assets: None. The project uses only the standard Java library. Update this section if any are added.
+* AI assistance: We used an AI assistant (Claude, by Anthropic) to help redesign the Swing interface, reorganize and review the server code, fix bugs, and draft this README and study notes. The original server and client code was written by our team and we used AI Assistant(ChatGPT). We reviewed, tested, and edited the AI-assisted parts and can explain how they work.
 
 ---
 
