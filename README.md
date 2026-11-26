@@ -7,7 +7,7 @@ Disaster Drill Room is a Java desktop chat application for classroom emergency s
 | Course / Section | ITAS1 – BSIT 2B SD |
 | Project | Network Programming — Java LAN Chat Application |
 | Theme | Disaster Drill Room |
-| Members | Shechinah Neth P. Demegillo · Charisse B. Malutao |
+| Members | Shechinah Neth P. Demegillo · Charisse L. Malutao |
 | GitHub usernames | shechinahdemegillo-sys · charissemalutao1-bot |
 | Repository | https://github.com/shechinahdemegillo-sys/ITAS1-BSIT2B-SD-Demegillo-Malutao |
 | Final commit | [paste the final commit hash here] |
